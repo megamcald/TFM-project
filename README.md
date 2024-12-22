@@ -73,16 +73,16 @@ TFM-project/
 ├── www/
 │   ├── styles.css            # Estilos CSS
 │   ├── images/               # Capruras aplicación de Shiny (desarrollo)
-│   ├── logos/				  # Logos
+│   ├── logos/		      # Logos
 │   │   ├── lupa.png
 │   │   ├── logo_appv2.png
 │   │   └── logo_uoc.png
 │   └── spinnerv2.gif         # GIF del spinner de carga
-├── 01_data/
+├── data/
 │   ├── raw/
 │   │   └── crohns_disease/   # Datos crudos descargados de PubMed
 │   └── processed/            # Datos procesados
-├── 03_results/               # Resultados
+├── results/                 # Resultados
 │   ├── word_frequency/
 │   │   ├── word_tokens.txt
 │   │   └── word_tokens_barplot.png
