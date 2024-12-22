@@ -1,5 +1,5 @@
 # PubExplorer Text Mining Analysis
-![PubExplorer]("PubExplorer\www\logos\logo_appv2.png")
+![PubExplorer](PubExplorer/www/logos/logo_appv2.png)
 
 **PubExplorer** es una aplicación web desarrollada en R Shiny para el estudio y análisis de la **enfermedad de Crohn** mediante minería de textos de PubMed. La aplicación permite a los usuarios buscar artículos relevantes, analizar la frecuencia de palabras y genes, visualizar datos en tablas, gráficos y nubes de palabras, y explorar la co-ocurrencia de términos en los abstracts de las publicaciones.
 
@@ -120,24 +120,25 @@ Desarrollado por: [Megam Calderón](https://www.linkedin.com/in/megam-calder%C3%
 ### 🖼️ Capturas
 
 ## Pantalla principal
-![Captura pantalla de inicio PubExplorer]("PubExplorer\www\images\vista_inicio.png")
+![Captura pantalla de inicio PubExplorer](PubExplorer/www/images/vista_inicio.png)
+
 
 ## Pantallas Palabras
-![Captura pantalla Palabras-tabla]("PubExplorer\www\images\vista_palabras.png")
-![Captura pantalla Palabras-gráfico]("PubExplorer\www\images\vista_palabras_plot.png")
-![Captura pantalla Palabras-nube]("PubExplorer\www\images\vista_palabras_cloud.png")
+![Captura pantalla Palabras-tabla](PubExplorer/www/images/vista_palabras.png)
+![Captura pantalla Palabras-gráfico](PubExplorer/www/images/vista_palabras_plot.png)
+![Captura pantalla Palabras-nube](PubExplorer/www/images/vista_palabras_cloud.png)
 
 ## Pantallas Genes
-![Captura pantalla Genes-tabla]("PubExplorer\www\images\vista_genes.png")
-![Captura pantalla Genes-gráfico](PubExplorer\www\images\vista_genes_plot.png")
-![Captura pantalla Genes-nube]("PubExplorer\www\images\vista_genes_cloud.png")
+![Captura pantalla Genes-tabla](PubExplorer/www/images/vista_genes.png)
+![Captura pantalla Genes-gráfico](PubExplorer/www/images/vista_genes_plot.png)
+![Captura pantalla Genes-nube](PubExplorer/www/images/vista_genes_cloud.png)
 
 ## Pantallas Navegación
-![Captura pantalla Navegación términos: Gene_symbol]("PubExplorer\www\images\vista_navgenes.png")
-![Captura pantalla Navegación términos: words]("PubExplorer\www\images\vista_navpalabras.png")
+![Captura pantalla Navegación términos: Gene_symbol](PubExplorer/www/images/vista_navgenes.png)
+![Captura pantalla Navegación términos: words](PubExplorer/www/images/vista_navpalabras.png)
 
 ## Pantalla Co-ocurrencia términos
-![Captura pantalla Búsqueda co-ocurrencia términos]("PubExplorer\www\images\vista_coocurrencia.png")
+![Captura pantalla Búsqueda co-ocurrencia términos](PubExplorer/www/images/vista_coocurrencia.png)
 
 ## Pantalla Acerca de
-![Captura pantalla acerca de]("PubExplorer\www\images\vista_acercade.png")
+![Captura pantalla acerca de](PubExplorer/www/images/vista_acercade.png)
