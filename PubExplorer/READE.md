@@ -1,5 +1,5 @@
 # PubExplorer Text Mining Analysis
-![PubExplorer]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\logos\logo_appv2.png")
+![PubExplorer]("PubExplorer\www\logos\logo_appv2.png")
 
 **PubExplorer** es una aplicación web desarrollada en R Shiny para el estudio y análisis de la **enfermedad de Crohn** mediante minería de textos de PubMed. La aplicación permite a los usuarios buscar artículos relevantes, analizar la frecuencia de palabras y genes, visualizar datos en tablas, gráficos y nubes de palabras, y explorar la co-ocurrencia de términos en los abstracts de las publicaciones.
 
@@ -57,11 +57,11 @@ install.packages(c(
 ```
 ### 🔧 Configuración del Proyecto
 
-[Repositorio github](https://github.com/megamcald)🔗
+[Repositorio github](https://github.com/megamcald/TFM-project)🔗
 
 Para clonar el repositorio:
 
-git clone https://github.com/megamcald/PubExplorer.git
+git clone https://github.com/megamcald/TFM-project.git
 
 ## 🗂️ Estructura del Proyecto
 
@@ -72,17 +72,17 @@ TFM-project/
 ├── README.md                 # README
 ├── www/
 │   ├── styles.css            # Estilos CSS
-│   ├── images/               # Capruras aplicación de Shiny (desarrollo)
-│   ├── logos/				  # Logos
+│   ├── images/               # Capruras aplicación de Shiny
+│   ├── logos/				        # Logos
 │   │   ├── lupa.png
 │   │   ├── logo_appv2.png
 │   │   └── logo_uoc.png
 │   └── spinnerv2.gif         # GIF del spinner de carga
-├── 01_data/
+├── data/
 │   ├── raw/
 │   │   └── crohns_disease/   # Datos crudos descargados de PubMed
 │   └── processed/            # Datos procesados
-├── 03_results/               # Resultados
+├── results/                  # Resultados
 │   ├── word_frequency/
 │   │   ├── word_tokens.txt
 │   │   └── word_tokens_barplot.png
@@ -120,24 +120,24 @@ Desarrollado por: [Megam Calderón](https://www.linkedin.com/in/megam-calder%C3%
 ### 🖼️ Capturas
 
 ## Pantalla principal
-![Captura pantalla de inicio PubExplorer]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_inicio.png")
+![Captura pantalla de inicio PubExplorer]("PubExplorer\www\images\vista_inicio.png")
 
 ## Pantallas Palabras
-![Captura pantalla Palabras-tabla]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_palabras.png")
-![Captura pantalla Palabras-gráfico]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_palabras_plot.png")
-![Captura pantalla Palabras-nube]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_palabras_cloud.png")
+![Captura pantalla Palabras-tabla]("PubExplorer\www\images\vista_palabras.png")
+![Captura pantalla Palabras-gráfico]("PubExplorer\www\images\vista_palabras_plot.png")
+![Captura pantalla Palabras-nube]("PubExplorer\www\images\vista_palabras_cloud.png")
 
 ## Pantallas Genes
-![Captura pantalla Genes-tabla]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_genes.png")
-![Captura pantalla Genes-gráfico]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_genes_plot.png")
-![Captura pantalla Genes-nube]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_genes_cloud.png")
+![Captura pantalla Genes-tabla]("PubExplorer\www\images\vista_genes.png")
+![Captura pantalla Genes-gráfico](PubExplorer\www\images\vista_genes_plot.png")
+![Captura pantalla Genes-nube]("PubExplorer\www\images\vista_genes_cloud.png")
 
 ## Pantallas Navegación
-![Captura pantalla Navegación términos: Gene_symbol]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_navgenes.png")
-![Captura pantalla Navegación términos: words]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_navpalabras.png")
+![Captura pantalla Navegación términos: Gene_symbol]("PubExplorer\www\images\vista_navgenes.png")
+![Captura pantalla Navegación términos: words]("PubExplorer\www\images\vista_navpalabras.png")
 
 ## Pantalla Co-ocurrencia términos
-![Captura pantalla Búsqueda co-ocurrencia términos]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_coocurrencia.png")
+![Captura pantalla Búsqueda co-ocurrencia términos]("PubExplorer\www\images\vista_coocurrencia.png")
 
 ## Pantalla Acerca de
-![Captura pantalla acerca de]("C:\Users\megam\OneDrive\Escritorio\05_shinyapp\PubExplorer\www\images\vista_acercade.png")
+![Captura pantalla acerca de]("PubExplorer\www\images\vista_acercade.png")
