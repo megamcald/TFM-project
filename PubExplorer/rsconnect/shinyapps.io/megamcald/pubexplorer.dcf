@@ -1,0 +1,13 @@
+name: pubexplorer
+title: PubExplorer
+username: megamcald
+account: megamcald
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13633321
+bundleId: 9557744
+url: https://megamcald.shinyapps.io/pubexplorer/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: dataout.txt|newabs.txt|table.txt|word_table.txt
